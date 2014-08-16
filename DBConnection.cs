@@ -5,8 +5,7 @@ using System.Data.SqlClient;
 using System.Linq;
 using System.Reflection;
 
-namespace WhiteLabelTest
-{
+
     public class DBConnection
     {
         private string DBConstr;
@@ -165,4 +164,3 @@ namespace WhiteLabelTest
             fieldInfo.SetValue(src, value);
         }
     }
-}
